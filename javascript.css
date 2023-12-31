@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.heading {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    background-color: #143058;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    line-height: 2rem;
+    z-index: 1;
+    height: 6rem;
+    margin: 0;
+}
+
+
+
+h1 {
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.choice img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+
+.display {
+    border: 3px solid black;
+    display: flex;
+    margin-left: 60vmin;
+    margin-top: 25vmin;
+    height: 60vmin;
+    width: 90vh;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+.choice img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.absolute-container {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    display: flex;
+    height: 100%;
+    top: 0;
+    margin: 0
+        /* padding-top: 2rem; */
+        /* padding-top:10rem; */
+}
+
+.naming {
+    /* padding-top: 2rem; */
+    background-color: #143058;
+    color: white;
+    width: 15vmin;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25vmin;
+    height: 100%;    
+    padding-top: 3rem ;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10.5vmin;
+    margin-top: 7.5rem ;
+}
+
+
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 5rem;
+    text-align: center;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 3px solid black;
+    padding: 1rem;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    /* color: black;     */
+}
+
+.board {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    right: 0;
+    top: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    width: 20rem;
+    margin: 2rem;
+}
+
+#leftImg {
+    object-fit: contain;
+    width: 50%;
+}
+
+#rightImg {
+    object-fit: contain;
+    width: 50%;
+
+}

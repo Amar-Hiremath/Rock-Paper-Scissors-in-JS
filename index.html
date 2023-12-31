@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="javascript.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <img
+        id="logo"
+        src="./images/webhand-gestures-set-vector-cartoon-hands-play-rock-paper-scissors-game-rock-paper-scissors-hand-game-process_221648-201.jpg"
+      />
+      <h1>Rock Paper Scissors Game</h1>
+    </div>
+    <div class="absolute-container">
+      <div class="naming">
+        <p>Rock ▸</p>
+        <p>Paper ▸</p>
+        <p>Scissors ▸</p>
+      </div>
+      <div class="choices">
+        <div class="choice" id="rock">
+          <img src="./images/rock left.jpg" />
+        </div>
+        <div class="choice" id="paper">
+          <img src="./images/paper left.jpg" />
+        </div>
+        <div class="choice" id="scissors">
+          <img src="./images/scissors left.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="img-container">
+        <img id="leftImg" src="./images/rock left.jpg" />
+        <img id="rightImg" src="./images/rock right.jpg" />
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="msg-container">
+        <p id="msg">Play your move</p>
+      </div>
+      <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>YOU</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p>COMP</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="javascript.js"></script>
+  </body>
+</html>
